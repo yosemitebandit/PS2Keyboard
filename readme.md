@@ -13,7 +13,7 @@ Specifically, in PS2Keyboard.h, the following was added:
 
 This uses the additional interrupt pins (`INT0-3`) available on the Leonardo.
 
-Hopefully this will soon be incorporated into the PJRC-hosted lib as this has much more visibility.
+Hopefully this will soon be incorporated into the PJRC-hosted lib.
 
 
 ### License
