@@ -221,6 +221,11 @@ class PS2Keyboard {
 #define CORE_INT0_PIN  10
 #define CORE_INT1_PIN  11
 #define CORE_INT2_PIN  2
+#elif defined(__AVR_ATmega32U4__) // Leonardo
+#define CORE_INT0_PIN 3
+#define CORE_INT1_PIN 2
+#define CORE_INT2_PIN 0
+#define CORE_INT3_PIN 1
 #else  // Arduino Duemilanove, Diecimila, LilyPad, Mini, Fio, etc...
 #define CORE_INT0_PIN  2
 #define CORE_INT1_PIN  3
